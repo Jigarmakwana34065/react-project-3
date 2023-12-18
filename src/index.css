@@ -11,3 +11,64 @@ code {
   font-family: source-code-pro, Menlo, Monaco, Consolas, 'Courier New',
     monospace;
 }
+
+/* card css start  */
+
+
+.btn {
+  a {
+    text-decoration: none;
+    padding: 12px 20px;
+    background-color: #23b7c2;
+    display: block;
+    color: white;
+    border-radius: 12px;
+    transition: all 0.5s;
+  }
+}
+
+.btn a:hover {
+  background-color: #396c6f;
+}
+
+.card {
+  background-color: #f7f7f7;
+  border-radius: 15px;
+}
+
+.card .price {
+  color: #f0373d;
+}
+
+.card .name {
+  font-weight: 700;
+}
+
+.card .category {
+  color: black;
+}
+
+/* card css end */
+
+/* btn start  */
+
+.all-btn button {
+  padding: 8px 18px;
+  background-color: #f7f7f7;
+  margin: 5px 10px;
+  border-radius: 8px;
+}
+
+
+.all-btn button:focus {
+  background-color: #396c6f;
+  border: teal;
+  color: white;
+}
+
+h1 {
+  font-weight: 900;
+  text-transform: uppercase;
+}
+
+/* btn end */
